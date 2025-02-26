@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="初音未来百科 - 虚拟歌姬资料站">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>初音未来百科 - 测试版</title>
+    <style>
+        :root {
+            --miku-blue: #39C5BB;
+            --miku-green: #00C8A8;
+            --text-dark: #333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: var(--text-dark);
+        }
+
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(15deg, var(--miku-blue), var(--miku-green));
+            color: white;
+            border-radius: 0 0 20px 20px;
+        }
+
+        .nav {
+            display: flex;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .nav a {
+            padding: 10px 20px;
+            background: #f0f8ff;
+            border-radius: 20px;
+            color: var(--miku-blue);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .nav a:hover {
+            background: var(--miku-blue);
+            color: white;
+        }
+
+        section {
+            margin: 30px 0;
+        }
+
+        h2 {
+            color: var(--miku-blue);
+            margin-bottom: 15px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f8ff;
+        }
+
+        @media (max-width: 600px) {
+            .header {
+                padding: 30px 15px;
+            }
+            .nav {
+                gap: 10px;
+            }
+            .nav a {
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>初音未来百科</h1>
+        <p>测试版本 v0.1</p>
+    </div>
+
+    <div class="nav">
+        <a href="#about">关于</a>
+        <a href="#songs">歌曲</a>
+        <a href="#gallery">图库</a>
+    </div>
+
+    <section id="about">
+        <h2>虚拟歌姬的诞生</h2>
+        <p>2007年由Crypton Future Media开发的VOCALOID2语音合成软件诞生了初音未来，她是第一个获得全球关注的虚拟歌手，以其长长的双马尾和未来感的声音设计闻名。</p>
+    </section>
+
+    <section id="songs">
+        <h2>热门歌曲</h2>
+        <ul>
+            <li>千本樱 - 2023年播放量突破1亿次</li>
+            <li>World is Mine - 殿堂级代表作</li>
+            <li>甩葱歌 - 经典迷因曲目</li>
+        </ul>
+    </section>
+
+    <div class="gallery">
+        <img src="https://via.placeholder.com/400x300?text=Miku+Image+1" alt="初音未来形象1">
+        <img src="https://via.placeholder.com/400x300?text=Miku+Image+2" alt="初音未来形象2">
+        <img src="https://via.placeholder.com/400x300?text=Miku+Image+3" alt="初音未来形象3">
+    </div>
+</body>
+</html>
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
